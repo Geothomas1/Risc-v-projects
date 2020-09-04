@@ -1,0 +1,8 @@
+verilog src/edge.v
+
+
+
+iverilog -o edge src/edge.v tb/edge_tb.v
+
+gtkwave edge.vcd
+
